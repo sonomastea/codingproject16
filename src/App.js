@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./profile.js"
+import"./gallery.js"
+import"./header.js"
+import"./app.css"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const teamMembers= [{
+  name:'Nick Sanders', role:'Team Leader', photo:'';
+  name:'Sophia Green', role:'Organizational Liason' ,photo:;
+  name:'Steven Jones', role:'Researcher', photo: 
+
+}]
+
+function app(){
+  return
+  <header>
+    <Gallery teamMembers={teamMembers}>
+    </Gallery>
+    <Title> "Our Team"</Title>
+
+  </header>
 }
-
-export default App;
+export default app; 
