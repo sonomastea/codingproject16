@@ -1,12 +1,12 @@
 import "./profile.js"
 import"./gallery.js"
-import"./header.js"
+import {header} from "./gallery.js"
 import"./app.css"
 
 const teamMembers= [{
-  name:'Nick Sanders', role:'Team Leader', photo:'';
-  name:'Sophia Green', role:'Organizational Liason' ,photo:;
-  name:'Steven Jones', role:'Researcher', photo: 
+  name:'Nick Sanders', role:'Team Leader', photo:'photo.url';
+  name:'Sophia Green', role:'Organizational Liason' ,photo:'photo.url';
+  name:'Steven Jones', role:'Researcher', photo:'photo.url';
 
 }]
 

@@ -10,4 +10,11 @@ const Gallery={members} =>
           ) }  
         </div>
 
+
     )
+    export function (header){
+        return 
+        <header>
+        <h1>Team Members</h1>
+        </header>
+    }
