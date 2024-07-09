@@ -1,6 +1,6 @@
 import "./profile.js"
 import"./gallery.js"
-import {header} from "./gallery.js"
+import {header} from "./gallery.js";
 import"./app.css"
 
 const teamMembers= [{
